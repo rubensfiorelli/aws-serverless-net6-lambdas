@@ -1,0 +1,1 @@
+# aws-serverless-net6.0-v6
