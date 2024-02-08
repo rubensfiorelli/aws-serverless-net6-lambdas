@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Amazon.Lambda.DynamoDBEvents" Version="2.3.0" />
+		<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.301.7" />
+		<PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.300" />
+		<PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.300.46" />
+		<PackageReference Include="AWSSDK.SQS" Version="3.7.300.46" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="8.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Aws.Core\Aws.Core.csproj" />
+	  <ProjectReference Include="..\Aws.Data\Aws.Data.csproj" />
+	</ItemGroup>
+
+</Project>
